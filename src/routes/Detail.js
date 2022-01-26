@@ -15,5 +15,6 @@ const Detail = () => {
     getMovie();
   }, []);
   return <h1>Detail</h1>;
+  // 로딩 구현, state 에 api 담기
 };
 export default Detail;

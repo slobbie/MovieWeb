@@ -1,0 +1,47 @@
+$font-color1: #000;
+$font-color2: #666;
+$font-color3: #ff3d00;
+
+.movieContainer {
+  width: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  text-align: center;
+}
+.movie_rating {
+  color: $font-color3;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+.movie_year {
+}
+
+.movie_img {
+  width: 80%;
+  object-fit: scale-down;
+}
+
+.movie_h2 {
+  font-size: 1vw;
+  a {
+    text-decoration: none;
+    color: $font-color1;
+  }
+}
+
+.movie_Ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  li {
+    font-size: 1vw;
+    color: $font-color2;
+    padding: 5px;
+  }
+}

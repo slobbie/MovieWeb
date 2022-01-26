@@ -27,7 +27,7 @@ const Home = () => {
       {loading ? (
         <div>loading...</div>
       ) : (
-        <div>
+        <div className='mainHome'>
           {movies.map((movie) => {
             return (
               <Movie
@@ -35,7 +35,8 @@ const Home = () => {
                 id={movie.id}
                 coverImg={movie.medium_cover_image}
                 title={movie.title}
-                summary={movie.summary}
+                rating={movie.rating}
+                year={movie.year}
                 genres={movie.genres}
               />
             );
