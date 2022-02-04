@@ -20,8 +20,6 @@ const Home = () => {
     getMovies();
   }, []);
 
-  console.log(movies);
-
   return (
     <div className='App'>
       {loading ? (
